@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>gary-rpc-server</artifactId>
+    <artifactId>gary-rpc-example</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -20,27 +20,13 @@
     <dependencies>
         <dependency>
             <groupId>com.gary</groupId>
-            <artifactId>gary-rpc-proto</artifactId>
+            <artifactId>gary-rpc-server</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.gary</groupId>
-            <artifactId>gary-rpc-transport</artifactId>
+            <artifactId>gary-rpc-client</artifactId>
             <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.gary</groupId>
-            <artifactId>gary-rpc-codec</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.gary</groupId>
-            <artifactId>gary-rpc-common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
         </dependency>
     </dependencies>
 

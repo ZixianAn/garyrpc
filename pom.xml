@@ -15,6 +15,7 @@
         <module>gary-rpc-server</module>
         <module>gary-rpc-transport</module>
         <module>gary-rpc-proto</module>
+        <module>gary-rpc-example</module>
     </modules>
 
     <properties>
@@ -33,7 +34,8 @@
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-servlet</artifactId>
-                <version>9.4.19.v20190610</version>
+                <version>9.2.28.v20190418</version>
+<!--                <version>9.4.19.v20190610</version>-->
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>

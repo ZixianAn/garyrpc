@@ -1,4 +1,4 @@
-package com.gary.utils;
+package com.gary.garyrpc.common.util;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -11,7 +11,7 @@ import java.util.List;
  * @Date 2023/2/12 3:40 PM
  * @Author Gary An
  */
-public class ReflectionUtils {
+public class ReflectionUtil {
     public static <T> T newInstance(Class<T> clazz) {
         try {
             return clazz.newInstance();
